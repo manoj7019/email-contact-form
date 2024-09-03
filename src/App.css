@@ -46,7 +46,7 @@ select {
   background-color: black;
   color: white;
   width: 100vw;
-  height: 40px;
+  height: 50px;
   border-radius: 0.5rem;
   padding: 0 1rem;
 }
@@ -65,16 +65,28 @@ textarea {
 }
 
 select {
-  height: 40px;
+  height: 50px;
   width: 100%;
   font-size: 1.1rem;
+}
+
+.date {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1rem;
+}
+
+h4 {
+  font-size: 1.2rem;
+  font-weight: 400;
 }
 
 input[type=date] {
   background-color: black;
   color: white;
-  width: 100vw;
-  height: 40px;
+  width: 50%;
+  height: 50px;
   font-size: 1.1rem;
 }
 

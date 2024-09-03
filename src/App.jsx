@@ -42,10 +42,13 @@ function App() {
           <option value="Male">Male</option>
           <option value="Female">Female</option>
         </select>
-        <input type="date" name="date of birth" placeholder="Date of birth" required/>
-        <input type="text" name="current weight (kg)" placeholder="Current weight(kg)" required/>
-        <input type="text" name="goal weight (kg)" placeholder="Goal Weight(kg)" required/>
-        <input type="text" name="height (cm)" placeholder="Height(cm)" required/>
+        <div className="date">
+          <h4>Date of Birth :</h4>
+          <input type="date" name="date of birth" placeholder="Date of birth" required/>
+        </div>
+        <input type="text" name="current weight (kg)" placeholder="Current weight (kg)" required/>
+        <input type="text" name="goal weight (kg)" placeholder="Goal Weight (kg)" required/>
+        <input type="text" name="height (cm)" placeholder="Height (cm)" required/>
         <input type="text" name="waist (cm)" placeholder="Waist Measurement(cm)" required/>
         <select name="work type" id="work" required>
           <option disabled selected value>Your Job Type</option>
