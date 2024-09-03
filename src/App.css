@@ -72,6 +72,7 @@ select {
 
 input[type=date] {
   background-color: black;
+  color: white;
   width: 100vw;
   height: 40px;
   font-size: 1.1rem;
