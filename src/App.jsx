@@ -37,6 +37,12 @@ function App() {
         <input type="text" name="name" placeholder="Your Name" required/>
         <input type="email" name="email" placeholder="Email" required/>
         <input type="text" name="number" placeholder="Phone Number" required/>
+        <select name="goal type" id="goal" required>
+          <option disabled selected value>What's Your Goal?</option>
+          <option value="Weight Loss">To Lose Weight</option>
+          <option value="Weight Management">To Maintain Weight</option>
+          <option value="Weight Gain">To Gain Weight</option>
+        </select>
         <select name="sex" id="sex" required>
           <option disabled selected value>Sex</option>
           <option value="Male">Male</option>
@@ -49,7 +55,7 @@ function App() {
         <input type="text" name="current weight (kg)" placeholder="Current weight (kg)" required/>
         <input type="text" name="goal weight (kg)" placeholder="Goal Weight (kg)" required/>
         <input type="text" name="height (cm)" placeholder="Height (cm)" required/>
-        <input type="text" name="waist (cm)" placeholder="Waist Measurement(cm)" required/>
+        <input type="text" name="waist (cm)" placeholder="Waist Measurement (cm)" required/>
         <select name="work type" id="work" required>
           <option disabled selected value>Your Job Type</option>
           <option value="Desk job">Desk job</option>
@@ -71,7 +77,7 @@ function App() {
           <option value="Swimming">Swimming</option>
         </select>
         <input name="Activity Duration (mins)" type="number" placeholder="Duration of Physical Activity (Eg: 70 if 70 mins)" required/>
-        <select name="goal range" id="goal" required>
+        <select name="goal range" id="goalRange" required>
           <option disabled selected value>How fast you want to achieve goal?</option>
           <option value="slow">0.1kg/week - 0.24kg/week (slower)</option>
           <option value="normal">0.25kg/week - 0.7kg/week (recommended)</option>
