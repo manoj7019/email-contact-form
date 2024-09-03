@@ -43,7 +43,8 @@
 
 input,
 select {
-  background-color: black;
+  background-color: rgb(239, 239, 239);
+  border: 1px solid black;
   color: white;
   width: 100vw;
   height: 50px;
@@ -52,7 +53,7 @@ select {
 }
 
 ::placeholder {
-  color: white;
+  color: black;
   opacity: 0.7;
   font-size: 1.1rem;
 }
@@ -60,7 +61,7 @@ select {
 textarea {
   margin-top: 1rem;
   height: 100px;
-  background-color: black;
+  background-color: rgb(239, 239, 239);
   padding: 1rem;
 }
 
@@ -68,6 +69,7 @@ select {
   height: 50px;
   width: 100%;
   font-size: 1.1rem;
+  color: black;
 }
 
 .date {
@@ -83,8 +85,8 @@ h4 {
 }
 
 input[type=date] {
-  background-color: black;
-  color: white;
+  background-color: rgb(239, 239, 239);
+  color: rgb(0, 0, 0);
   width: 50%;
   height: 50px;
   font-size: 1.1rem;
@@ -115,7 +117,7 @@ h3 {
   margin: 1rem 0;
   padding: 1rem;
   font-size: 1.3rem;
-  background-color: white;
-  color: black;
+  background-color: rgb(29, 29, 29);
+  color: rgb(255, 255, 255);
 }
 
