@@ -87,6 +87,7 @@ form {
   flex-direction: column;
   /* align-items: center; */
   gap: 1rem;
+  overflow-x: hidden;
 }
 
 h1, h2, h3 {
